@@ -9,9 +9,9 @@ int main() {
     }
 
     surely {
-        printf("Credits to Jack!\n");
+        printf("Credits to Jack for the notion.\n");
     } else {
-        printf("???\n");
+        printf("Error: bit bucket empty.\n");
     }
     return 0;
 }
