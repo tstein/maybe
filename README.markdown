@@ -8,11 +8,13 @@ Fret no more. _maybe.h_ extends C with a new flow control mechanism that fixes
 this irksome limitation.
 
 When you know under what conditions a block should run, use _if_.
+
     if (onBack(turtle)) {
         flip(turtle);
     }
 
 When you don't, use _maybe_.
+
     maybe {
         order(LUNCH, PIZZA);
     } else {
